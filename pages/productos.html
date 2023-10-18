@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <nav>
+                <div class="container-nav">
+                    <div class="imglogo">
+                        <img src="../assets/img/logo.jpg" alt="logo principal">
+                    </div>
+                    <ul class="navbar">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                        <li><a href="../pages/contacto.html">Contacto</a></li>
+                        <li><a href="../pages/cuenta.html">Cuenta</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <h1> Productos </h1>
+            <div class="container-main">
+                <form class="form-busqueda">
+                    <label>Seleccione vehiculo</label>
+                    <br>
+                    <br>
+                    <select class="form-select" id="vehiculo" name="vehiculo">
+                        <option value="1">Auto</option>
+                        <option value="2">Camioneta</option>
+                        <option value="3">Camion</option>
+                    </select><br><br>
+                    <select class="form-select" id="marca" name="marca">
+                        <option value="opcion1">BMW</option>
+                        <option value="opcion2">Mercedes benz</option>
+                        <option value="opcion3">Audi </option>
+                    </select><br><br>
+                    <select class="form-select" id="modelo" name="modelo">
+                        <option value="opcion1">Serie2</option>
+                        <option value="opcion2">SerieC</option>
+                        <option value="opcion3">SerieA</option>
+                    </select><br><br>
+                    <input class="button" type="submit" value="Enviar">
+                </form>
+                <section class="container-productos">
+                    <div class="card">
+                        <img src="../assets/img/codos-ferrari.webp" alt="">
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore accusantium</p>
+                            <input class="button" type="button" value="Agregar al carrito">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assets/img/codos-nissan.jpg" alt="">
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore accusantium</p>
+                            <input class="button" type="button" value="Agregar al carrito">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assets/img/codos-peugeot.jpg" alt="">
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore accusantium</p>
+                            <input class="button" type="button" value="Agregar al carrito">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assets/img/codos-ferrari.webp" alt="">
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore accusantium</p>
+                            <input class="button" type="button" value="Agregar al carrito">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assets/img/codos-subaru.jpg" alt="">
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore accusantium</p>
+                            <input class="button" type="button" value="Agregar al carrito">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assets/img/codos-nissan.jpg" alt="">
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore accusantium</p>
+                            <input class="button" type="button" value="Agregar al carrito">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container-footer">
+                <a>#Seguinos en nuestras redes sociales</a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
