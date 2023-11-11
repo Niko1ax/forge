@@ -1,0 +1,23 @@
+.body-error {
+    background-color: $color-texto-negro;
+    color: $color-gris;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container-error {
+    max-width: 600px;
+
+    h1 {
+        color: #d9534f;
+    }
+
+    p {
+        padding-top: 20px;
+    }
+}

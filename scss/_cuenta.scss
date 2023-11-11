@@ -1,0 +1,38 @@
+.todo-form-cuenta {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+  h1{
+    font-weight: $texto-grueso;
+  }
+}
+
+.form-inicio-sesion {
+  @include form;
+}
+
+.form-registrarse {
+  @include form;
+}
+
+.input {
+  border: none;
+  border-bottom: 2px solid $color-fondo-negro;
+
+  &:focus {
+    outline: none;
+    border-bottom: 2px solid $color-hover;
+  }
+
+  &::placeholder {
+    color: $color-fondo-negro;
+    font-size: 17px;
+  }
+}
+
+.button-cuenta {
+  border-radius: 10px;
+  background-color: $color-fondo-negro;
+  color: $color-gris;
+}

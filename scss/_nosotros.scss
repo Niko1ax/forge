@@ -1,0 +1,115 @@
+.h1-nosotros {
+    color: $color-texto-blanco;
+    display: flex;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-weight: $texto-grueso;
+  }
+  
+  .container-iframe {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+  }
+  
+  .banner-nosotros {
+    width: 100%;
+    max-height: 20vh;
+    height: auto;
+    object-fit: cover;
+    padding-top: 25px;
+  }
+  
+  .container-img {
+    position: relative;
+    display: inline-block;
+    box-shadow: 5px 5px 5px $color-fondo-negro;
+  }
+  
+  .container-text {
+    position: absolute;
+    width: 720px;
+    height: 450px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: $color-texto-negro;
+    p{
+      margin: 0;
+      font-size: 22px;
+      text-align: center;
+      color: $color-texto-blanco
+    }
+  }
+  
+  .map-iframe{
+    width:"600";
+    height:"550";
+    box-shadow: 5px 5px 5px $color-fondo-negro;
+  }
+  
+  .prefooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    a{
+      font-size: 20px;
+      margin-top: 10px;
+      padding: 15px;
+    }
+  }
+    
+  .animated-button {
+    position: relative;
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    background-color: $color-fondo-negro;
+    border-radius: 100px;
+    font-weight: 600;
+    color: $color-texto-blanco;
+    box-shadow: 0 0 0 2px $color-fondo-negro;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  
+    span:last-child {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 20px;
+      height: 20px;
+      background-color: #2196F3;
+      border-radius: 50%;
+      opacity: 0;
+      transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);
+    }
+  
+    span:first-child {
+      position: relative;
+      z-index: 1;
+    }
+  
+    &:hover {
+      box-shadow: 0 0 0 5px #2195f360;
+      color: $color-texto-blanco;
+  
+      span:last-child {
+        width: 150px;
+        height: 150px;
+        opacity: 1;
+      }
+    }
+  
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+  

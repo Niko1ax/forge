@@ -1,0 +1,22 @@
+.header {
+    background-color: $color-fondo-negro;
+    grid-area: header;
+  }
+  
+  .navbar {
+    background-color: $color-fondo-negro;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    z-index: 1;
+  
+    a {
+      text-decoration: none;
+      color: $color-texto-blanco;
+      font-size: 25px;
+  
+      &:hover {
+        color: $color-hover
+      }
+    }
+  }

@@ -1,0 +1,44 @@
+.h1-main {
+    color: $color-texto-negro;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: $texto-grueso;
+  }
+
+  #carouselExampleRide {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px $color-fondo-negro;
+  }
+  
+  .contenedor-list-carousel {
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 35px;
+  }
+  
+  .list-carousel {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+     
+    a{
+        text-decoration: none;
+        color: $color-texto-negro;
+        font-size: 20px;
+        font-weight: $texto-grueso;
+        transition: color 0.5s;
+        &:hover{
+          color:$color-hover;
+        }
+      }
+    }

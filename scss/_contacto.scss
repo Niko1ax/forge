@@ -1,0 +1,67 @@
+   .img-fondo {
+     background-image: url($background-image-url);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+   }
+
+   .h1-contacto {
+     color: $color-texto-blanco;
+     display: flex;
+     gap: 50px;
+     display: flex;
+     justify-content: center;
+     padding-top: 20px;
+     font-weight: $texto-grueso;
+   }
+
+   input {
+     background-color: transparent;
+     color: $color-texto-negro;
+     border: 2px solid $color-texto-negro;
+     padding: 5px;
+     margin-bottom: 10px;
+   }
+
+   input[type="submit"] {
+     background-color: $color-fondo-negro;
+     color: $color-texto-blanco;
+     padding: 10px 20px;
+   }
+
+   .form-contacto {
+     background-color: rgba(255, 255, 255, 0.7);
+     border: 5px solid $color-fondo-negro;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin: 0 auto;
+     padding: 20px;
+   }
+
+   .todo-form {
+     display: flex;
+     justify-content: center;
+   }
+
+   textarea {
+     background-color: transparent;
+     color: $color-fondo-negro;
+     border: 2px solid $color-fondo-negro;
+     resize: none;
+
+     &:focus {
+       outline: none;
+       border: 2px solid $color-hover;
+     }
+   }
+
+   .contenedor-button {
+     display: flex;
+     justify-content: space-around;
+   }
+
+   .button-contacto {
+     @include button;
+   }

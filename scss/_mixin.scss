@@ -1,0 +1,20 @@
+@mixin button{
+    border-radius: 10px;
+    background-color: $color-fondo-negro;
+    color: $color-gris;
+    text-decoration: none;
+    &:hover{
+        color: $color-gris;
+    }
+}
+
+@mixin form{
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 5px solid $color-fondo-negro;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+}
